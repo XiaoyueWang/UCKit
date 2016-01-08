@@ -1,0 +1,13 @@
+//
+//  UCViewController.h
+//  UCKit
+//
+//  Created by Uncle.Chen on 01/07/2016.
+//  Copyright (c) 2016 Uncle.Chen. All rights reserved.
+//
+
+@import UIKit;
+
+@interface UCViewController : UIViewController
+
+@end
