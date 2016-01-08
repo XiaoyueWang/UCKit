@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "UCKit"
-s.version      = "0.0.2"
+s.version      = "0.0.3"
 s.summary      = "Something useful view."
 s.homepage     = "https://github.com/XiaoyueWang/UCKit"
 s.license      = 'MIT'
