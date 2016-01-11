@@ -211,13 +211,13 @@ static CGFloat const __DEFAULTTOPSPACE = 100.f;
         [resultString appendString:[num objectForKey:@"num"]];
     }
     
+    self.success = [self.delegate gesturePassword:resultString];
+    
     if (self.success) {
         self.messageLabel.textColor = __DEFAULTCOLOR;
     } else {
         self.messageLabel.textColor = [UIColor redColor];
     }
-    
-    [self.delegate gesturePassword:resultString];
     
     for (int i = 0; i < self.touchesArray.count; i++) {
         NSInteger selection = [[[self.touchesArray objectAtIndex:i] objectForKey:@"num"] intValue];
