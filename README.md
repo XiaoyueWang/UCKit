@@ -5,9 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/UCKit.svg?style=flat)](http://cocoapods.org/pods/UCKit)
 [![Platform](https://img.shields.io/cocoapods/p/UCKit.svg?style=flat)](http://cocoapods.org/pods/UCKit)
 
+## Description
+
+1. UCLogin - 登录视图，包块帐号登录和手势密码登录两部分
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo.
 
 ## Requirements
 
